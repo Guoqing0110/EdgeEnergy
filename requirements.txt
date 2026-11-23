@@ -1,0 +1,8 @@
+# Tested direct dependencies for the three studies; Linux x86-64 / CPython 3.12.14.
+# pip installs these packages' own dependencies. The simulations themselves run offline.
+numpy==2.3.5
+PyYAML==6.0.3
+pandas==2.2.3
+matplotlib==3.10.8
+
+scipy==1.17.0

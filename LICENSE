@@ -1,0 +1,25 @@
+Licenses for the thesis reproduction materials
+==============================================
+
+The new reproduction tools and documentation listed in
+LICENSE_SCOPE.md are licensed under the MIT License. Their notice
+identifies the contributors to the thesis reproduction tools. This
+includes the root launcher, user guides and listed HIL verification
+scripts; it does not include the data processed by those scripts.
+
+Guoqing Lu also offers the portions of the historical research software
+that he authored and is entitled to license under MIT. His notice applies
+to those contributions only.
+
+See MIT.txt for the license text and notices and
+LICENSE_SCOPE.md for the exact files and exceptions. Retain the MIT
+copyright and permission notices in copies or substantial portions
+of the covered works. There is no blanket license over the historical source trees or project records;
+Intel Lab inputs and external dependencies have their own terms.
+
+Inside the downloadable package, the same license text and scope are in
+legal/MIT.txt and legal/LICENSE_SCOPE.md. The download-page
+README, its overview illustration, and the root archive launcher, pinned
+requirements and checksums are reproduction tools and documentation under
+the contributor MIT notice. The terms for the contents of the study archive
+are unchanged.

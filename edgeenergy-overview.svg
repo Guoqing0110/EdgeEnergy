@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 222" width="900" height="222" role="img" aria-labelledby="title desc">
+  <title id="title">Three decisions in an energy-constrained sensor network</title>
+  <desc id="desc">Conceptual illustrations: several donors share energy, a controller receives selected state reports, and a sentinel prompts closer sampling around an event.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2=".8" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0b2833"/><stop offset="1" stop-color="#101e34"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="898" height="220" rx="18" fill="url(#ground)" stroke="#38515c" stroke-width="2"/>
+  <path d="M299.5 32V190 M599.5 32V190" stroke="#395563" stroke-width="1.5"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Donors and the receiving node share a common junction. -->
+    <g transform="translate(57 43)">
+      <path d="M29 16H97V46H155 M29 76H97V46" stroke="#4cb6af" stroke-width="3"/>
+      <circle cx="97" cy="46" r="4" fill="#82e5c8" stroke="#82e5c8"/>
+      <g fill="#163d45" stroke="#82e5c8" stroke-width="2.8">
+        <rect x="1" y="3" width="28" height="26" rx="6"/>
+        <rect x="1" y="63" width="28" height="26" rx="6"/>
+        <circle cx="171" cy="46" r="17"/>
+      </g>
+      <path d="M10 16H20 M15 11V21 M10 76H20 M15 71V81 M166 46H176" stroke="#a3f2d9" stroke-width="2.5"/>
+    </g>
+    <!-- Dashed segments indicate time between reports rather than packet loss. -->
+    <g transform="translate(347 43)" stroke="#82c4ef">
+      <path d="M1 76H206" stroke="#476579" stroke-width="2"/>
+      <path d="M9 61H65V44H128" stroke-width="3"/>
+      <path d="M128 44H174V18H200" stroke-width="3" stroke-dasharray="4 7"/>
+      <g fill="#112b39" stroke-width="2.8">
+        <circle cx="9" cy="61" r="5.5"/><circle cx="65" cy="44" r="5.5"/>
+        <circle cx="174" cy="18" r="5.5"/>
+      </g>
+      <path d="M9 72V80 M65 72V80 M174 72V80" stroke="#93c9e7" stroke-width="2.3"/>
+    </g>
+    <!-- Sampling markers cluster at a change in the illustrative signal. -->
+    <g transform="translate(647 43)">
+      <rect x="82" y="1" width="79" height="87" rx="8" fill="#423b35"/>
+      <path d="M1 68 L33 63 L64 66 L82 60 L96 45 L110 19 L123 14 L137 32 L151 51 L171 60 L203 59" stroke="#edba79" stroke-width="3"/>
+      <g fill="#172e39" stroke="#ffd49b" stroke-width="2.6">
+        <circle cx="1" cy="68" r="4"/><circle cx="64" cy="66" r="4"/>
+        <circle cx="96" cy="45" r="4"/><circle cx="110" cy="19" r="4"/>
+        <circle cx="123" cy="14" r="4"/><circle cx="137" cy="32" r="4"/>
+        <circle cx="151" cy="51" r="4"/><circle cx="203" cy="59" r="4"/>
+      </g>
+    </g>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="31" font-weight="600" fill="#f2f6f4" text-anchor="middle">
+    <text x="150" y="181">Share energy</text><text x="450" y="181">Request state</text><text x="750" y="181">Track events</text>
+  </g>
+</svg>
